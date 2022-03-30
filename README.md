@@ -39,7 +39,9 @@ See below for further instructions and expectations of this demo and reach out t
 
     Requirements
         
-    - [Configure a problem notification systems outbound from Dynatrace, that is NOT email](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/)
+    - [Configure a problem notification systems outbound from Dynatrace](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/)
+        - [Create a custom metric alert](https://www.dynatrace.com/support/help/shortlink/metric-events-for-alerting)
+        - [Create an alerting profile to respond to the custom metric alert to trigger the problem notification](https://www.dynatrace.com/support/help/how-to-use-dynatrace/problem-detection-and-analysis/notifications-and-alerting/alerting-profiles)
     - [Create a Management Zone](https://www.dynatrace.com/support/help/how-to-use-dynatrace/management-zones/)
     - [Add a Synthetic check to your web application](https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/)
     - [Setup Tagging Rules for your environment](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/)
