@@ -82,7 +82,7 @@ See below for further instructions and expectations of this demo and reach out t
 1. Presentation requirements: 
 
     - Present a problem card and the related application, user, service and business impact 
-    - Build a dashboard that showcases your environment and it's data
+    - Show a dashboard that showcases your environment and it's data
     - Explain the value of the [Dynatrace Smartscape](https://www.dynatrace.com/support/help/how-to-use-dynatrace/smartscape/visualize-your-environment-topology-through-smartscape/)
     - Walk through the application service flow you've instrumented with one agent from front end (Real users) to the database calls
     - Highlight 5 data points or features or learned about during setup
