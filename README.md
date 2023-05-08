@@ -16,7 +16,7 @@ See below for further instructions and expectations of this demo and reach out t
 
     Dynatrace has a general purpose application you can leverage for this demo, Easy Travel. Easy travel consists of an nginx front end, java backend and sql db. 
 
-    - [Easy Travel - Java Standalone](https://confluence.dynatrace.com/community/display/DL/easyTravel)
+    - [Easy Travel - Standalone](https://community.dynatrace.com/t5/Start-with-Dynatrace/easyTravel-Documentation-and-Download/td-p/181271)
     - [Easy Travel - Docker](https://github.com/Dynatrace/easyTravel-Docker)
 
 1. Alternatively, you can choose to use any other web frontend you have already worked with or built for this demo
@@ -26,7 +26,7 @@ See below for further instructions and expectations of this demo and reach out t
     - http service level calls 
     - Backend Database
     - Ideally, the application will be capable of generating errors/ crashes/ outages
-    - Check [Dynatrace's list of supported technologies](https://www.dynatrace.com/support/help/technology-support/supported-technologies-and-versions/) for technology compatibility
+    - Check [Dynatrace's list of supported technologies](https://www.dynatrace.com/support/help/setup-and-configuration/technology-support) for technology compatibility
 
    Other public web applications:
     - [Kona Kart](https://github.com/BraydenNeale/dynatrace_konakart_docker)
@@ -35,33 +35,32 @@ See below for further instructions and expectations of this demo and reach out t
 
 1. External integrations and extensions
 
-    Setup of the below additional Dynatrace integrations and extensions to setup and demo in your environment. These are intended to be challenging and highlight how your previous experience will translate to Dynatrace's Sales Engineering team. The below are tiered in challenge level of time and technical ability to implement. Dynatrace documentation links are included. Please note, these are only examples. Feel free to review the Dynatrace [How to Use Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/networks/) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
+    Setup of the below additional Dynatrace integrations and extensions to setup and demo in your environment. These are intended to be challenging and highlight how your previous experience will translate to Dynatrace's Sales Engineering team. The below are tiered in challenge level of time and technical ability to implement. Dynatrace documentation links are included. Please note, these are only examples. Feel free to review the Dynatrace [How to Use Dynatrace](https://www.dynatrace.com/support/help/extend-dynatrace) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
 
     Requirements
         
-    - [Configure a problem notification systems outbound from Dynatrace](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/)
+    - [Configure a problem notification systems outbound from Dynatrace](https://www.dynatrace.com/support/help/observe-and-explore/notifications-and-alerting/problem-notifications)
         - [Create a custom metric alert](https://www.dynatrace.com/support/help/shortlink/metric-events-for-alerting)
         - [Create an alerting profile to respond to the custom metric alert to trigger the problem notification](https://www.dynatrace.com/support/help/how-to-use-dynatrace/problem-detection-and-analysis/notifications-and-alerting/alerting-profiles)
     - [Create a Management Zone](https://www.dynatrace.com/support/help/how-to-use-dynatrace/management-zones/)
-    - [Add a Synthetic check to your web application](https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/)
-    - [Setup Tagging Rules for your environment](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/)
+    - [Add a Synthetic check to your web application](https://www.dynatrace.com/support/help/platform-modules/digital-experience/synthetic-monitoring)
+    - [Setup Tagging Rules for your environment](https://www.dynatrace.com/support/help/manage/tags-and-metadata/setup/how-to-define-tags#automatic)
     - [Enable Session Replay Capture](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/additional-configuration/configure-session-replay-for-personal-data-protection/)
     - [Configure Conversion Goals](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/how-to-use-real-user-monitoring/web-applications/define-conversion-goals/)
     - [Define Session Properties](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/additional-configuration/define-user-action-and-session-properties/)
  
     Additional Integration Requirements - Pick 2
 
-    - [Add any metric data point(s) to your environment using Metric Ingestion](https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/)
-    - [Instrument a Python application with OneAgent](https://github.com/dynatrace-oss/OneAgent-SDK-Python-AutoInstrumentation)
+    - [Add any metric data point(s) to your environment using Metric Ingestion](https://www.dynatrace.com/support/help/extend-dynatrace/extend-metrics)
+    - [Instrument a Python application with OpenTelemetry](https://www.dynatrace.com/support/help/extend-dynatrace/opentelemetry/opentelemetry-traces/opentelemetry-ingest/opent-python)
     - [Add a Synthetic check to you web app via a *Private* active gate](https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/private-synthetic-locations/create-a-private-synthetic-location/)
-    - [Use the Events API to add Event data to an entity](https://www.dynatrace.com/support/help/dynatrace-api/environment-api/events/)
+    - [Use the Events API to add Event data to an entity](https://www.dynatrace.com/support/help/dynatrace-api/environment-api/events-v2)
     - [Integrate Dynatrace with a Cloud Account](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/)
     - [Integrate your environment with Ansible Tower or AWX](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/problem-notification-systems/ansible-tower-integration/)
     - Integrate your environment with [LoadRunner](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/test-automation-frameworks/dynatrace-and-loadrunner-integration/), [JMeter](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/test-automation-frameworks/dynatrace-and-jmeter-integration/) or [Neotys](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/test-automation-frameworks/neotys-integration/)
     - [Leverage the Dynatrace Terraform Provider](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/latest)
     - [Extend OneAgent to instrument a non-native language through the OneAgent SDK](https://www.dynatrace.com/support/help/extend-dynatrace/oneagent-sdk/)
     - [Service Now CMDB](https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/problem-notification-systems/servicenow-integration/)
-    - [Davis Assistant](https://www.dynatrace.com/support/help/how-to-use-dynatrace/davis-assistant/)
     - Integrate business dashboards to really highlight value (https://dynatrace.github.io/BizOpsConfigurator/)
  
 
